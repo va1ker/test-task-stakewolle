@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "testtaskstakewolle"
+version = "0.1.0"
+description = ""
+authors = ["va1ker <dead1nside.inside@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+sqlalchemy = "^2.0.26"
+pydantic = {extras = ["email"], version = "^2.6.1"}
+pydantic-settings = "^2.1.0"
+alembic = "^1.13.1"
+uvicorn = "^0.27.1"
+psycopg2-binary = "^2.9.9"
+asyncpg = "^0.29.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = "^3.3.0"
+pyjwt = "^2.8.0"
+bcrypt = "4.0.1"
+redis = "^5.0.1"
+hiredis = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

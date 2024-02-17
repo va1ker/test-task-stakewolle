@@ -1,0 +1,10 @@
+# Visual Studio Code directory
+.vscode/
+
+# Python specific
+__pycache__/
+*.pyc
+
+# FastAPI specific
+__pycache__/
+/.vscode
